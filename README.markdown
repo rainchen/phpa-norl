@@ -16,5 +16,5 @@ phpa-norl is, like the original phpa, public domain. Feel free to do with it wha
 
 If you get `-bash: phpa-norl: command not found` you probably need to add `/usr/local/bin/` to the path environment variable. Add it with:
 
-1. echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.profile
-2. source ~/.profile
+1. `echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.profile``
+2. `source ~/.profile`
