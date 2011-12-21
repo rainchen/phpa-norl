@@ -8,7 +8,7 @@ phpa-norl is, like the original phpa, public domain. Feel free to do with it wha
 
 ## Install
 1. `$ git clone https://github.com/jmagnusson/phpa-norl.git`
-2. `$ mv ./phpa-norl/phpa-norl`
+2. `$ mv ./phpa-norl/phpa-norl /usr/local/bin`
 3. `$ rm -rf ./phpa-norl`
 
 ## How-To
