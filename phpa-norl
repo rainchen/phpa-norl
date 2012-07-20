@@ -101,6 +101,7 @@
             if( !$line && strlen($line)==0 )        # this is true, when CTRL-D is pressed
                 die("\nUser pressed CTRL-D. phpa-norl quits.\n");
             $line = rtrim($line);
+            $line = rtrim($line, ';'); // strip last ";"
             $complete_line .= $line;
             if( substr($line,-1) != '#')
                 break;
