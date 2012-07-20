@@ -25,7 +25,7 @@
     define("__PHPA_HISTORY_COMMAND", 'h');     // defines the command name for history manipulation
     define("__PHPA_EXIT_COMMAND", 'q');        // defines the command name to exit the shell
     define("__PHPA_MAX_HIST", 20);             // maximum number of history entries
-    define("__PHPA_PROMPT", '>>> ');
+    define("__PHPA_PROMPT", PHP_VERSION.' > ');
     $__phpa_myhist = array();
     $__phpa_fh = fopen('php://stdin','rb') or die($php_errormsg);
     /*
