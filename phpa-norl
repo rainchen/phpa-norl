@@ -97,7 +97,11 @@
         echo $prompt;
         $complete_line = '';
         for(;;) {
-            $line = fgets($fh,1024);
+            if(function_exists('readline')){
+                $line = readline('');
+            }else{
+                $line = fgets($fh,1024);
+            }
             if( !$line && strlen($line)==0 )        # this is true, when CTRL-D is pressed
                 die("\nUser pressed CTRL-D. phpa-norl quits.\n");
             $line = rtrim($line);
