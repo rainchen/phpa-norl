@@ -7,14 +7,11 @@ PHP shell for Mac OS X and Windows
 phpa-norl is, like the original phpa, public domain. Feel free to do with it whatever you want.
 
 ## Install
-1. `$ git clone https://github.com/jmagnusson/phpa-norl.git`
-2. `$ mv ./phpa-norl/phpa-norl /usr/local/bin`
-3. `$ rm -rf ./phpa-norl`
+1. `$ git clone https://github.com/rainchen/phpa-norl.git`
+2. modify .bash_profile: `alias php-console='php ~/phpa-norl/phpa-norl'`
 
 ## How-To
-1. `$ phpa-norl`
+`$ php-console`
 
-If you get `-bash: phpa-norl: command not found` you probably need to add `/usr/local/bin/` to the path environment variable. Add it with:
-
-1. `echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.profile``
-2. `source ~/.profile`
+## Demo
+![](http://i.imgur.com/fb62zm9.png)
